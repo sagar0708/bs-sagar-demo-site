@@ -20,7 +20,6 @@ $(document).ready(function(){
 function loader(){
     // PAGE IS FULLY LOADED  
     // FADE OUT YOUR OVERLAYING DIV
-    $('.loader').fadeOut();
     $('.loader').removeClass("d-block");
     $('.loader').addClass("d-none");
  }
