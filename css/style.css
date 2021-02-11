@@ -32,14 +32,14 @@ h2 {
     font-size: 38px !important;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   h2 {
     font-size: 32px !important;
   }
 }
 @media only screen and (max-width: 575px) {
   h2 {
-    font-size: 26px !important;
+    font-size: 24px !important;
   }
 }
 
@@ -47,7 +47,6 @@ h2 {
   background-color: #fff;
   height: 100vh;
   width: 100%;
-  padding: 20% 50%;
 }
 .loader i {
   margin: 0 auto;
@@ -60,6 +59,17 @@ h2 {
   font-size: 22px;
   top: 62%;
   left: 42%;
+}
+@media only screen and (max-width: 768px) {
+  .loader .loader-text {
+    font-size: 18px;
+    left: 35%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .loader .loader-text {
+    left: 15%;
+  }
 }
 
 @keyframes loader-anim {
@@ -115,7 +125,7 @@ h2 {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 28px 54px 28px 78px;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .banner nav {
     padding: 10px 25px;
   }
@@ -142,7 +152,7 @@ h2 {
     font-size: 14px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .banner nav li a {
     font-size: 16px;
   }
@@ -155,7 +165,7 @@ h2 {
 .banner .banner-text {
   padding: 205px 0 370px 0;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .banner .banner-text {
     padding: 132px 0;
   }
@@ -255,7 +265,7 @@ h2 {
     width: 30px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .discover .discover-box .about-us .about-us-title::before {
     width: 60px;
   }
@@ -275,7 +285,7 @@ h2 {
     width: 30px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .discover .discover-box .about-us .about-us-title::after {
     width: 60px;
   }
@@ -359,7 +369,7 @@ h2 {
     padding: 100px 0;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .service {
     padding: 70px 0;
   }
@@ -377,7 +387,7 @@ h2 {
     padding-top: 50px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .service .service-box {
     padding-top: 35px;
   }
@@ -390,7 +400,7 @@ h2 {
 .service .service-box .service-box-div {
   padding: 0 15px;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .service .service-box .service-box-div .service-box-image {
     margin-right: 15px;
   }
@@ -400,7 +410,7 @@ h2 {
     margin-right: 0;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .service .service-box .service-box-div .service-info {
     margin-left: 30%;
   }
@@ -420,7 +430,7 @@ h2 {
     font-size: 36px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .service .service-box .service-box-div .service-info h4 {
     font-size: 34px;
     margin: 0px 0 15px 0;
@@ -442,7 +452,7 @@ h2 {
     font-size: 18px !important;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .service .service-box .service-box-div .service-info p {
     font-size: 16px !important;
   }
@@ -462,7 +472,7 @@ h2 {
     padding: 80px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .deal {
     padding: 50px 0;
   }
@@ -480,7 +490,7 @@ h2 {
     padding-top: 40px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .deal .deal-images {
     padding-top: 25px;
   }
@@ -556,7 +566,7 @@ h2 {
   padding-left: 0 !important;
   padding-right: 15px;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .special-menu .menu-box .menu-item .col-8 {
     padding-right: 10px;
   }
@@ -599,7 +609,7 @@ h2 {
   word-spacing: 0.25px;
   font-family: "ABeeZee", sans-serif !important;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .special-menu .menu-box .menu-item .col-8 .item-desc {
     font-size: 14px;
   }
@@ -632,7 +642,7 @@ h2 {
     font-size: 20px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .testimonial p, .testimonial h6 {
     padding: 30px 50px 35px;
     font-size: 16px;
@@ -694,7 +704,7 @@ h2 {
     padding-top: 0;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .team .team-member .member-info {
     padding-top: 40px;
   }
@@ -719,7 +729,7 @@ h2 {
     font-size: 18px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .team .team-member h4 {
     padding: 20px 0 10px 0;
   }
@@ -745,7 +755,7 @@ h2 {
     font-size: 16px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .team .team-member p {
     padding: 15px 0 0 0;
     font-size: 16px;
@@ -755,7 +765,7 @@ h2 {
 .gallery {
   padding: 52px 0;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .gallery {
     padding: 38px 0;
   }
@@ -796,7 +806,7 @@ h2 {
 .booking .booking-table {
   padding: 52px 0 68px 0;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .booking .booking-table {
     padding: 40px 0;
   }
@@ -817,7 +827,7 @@ h2 {
   background-repeat: no-repeat;
   appearance: none;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .booking .booking-table select {
     background-position: 95%;
   }
@@ -850,7 +860,7 @@ footer .container {
   padding-bottom: 35px;
   border-bottom: 1px solid #999999;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   footer .container {
     padding-left: 20px;
   }
@@ -873,7 +883,7 @@ footer .footer-info p {
     font-size: 12px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   footer .footer-info p {
     padding: 30px 0 18px;
   }
@@ -901,7 +911,7 @@ footer .footer-title {
     font-size: 24px;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   footer .footer-title {
     margin-top: 30px;
     margin-bottom: 24px;
