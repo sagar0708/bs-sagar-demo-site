@@ -22,4 +22,5 @@ function loader(){
     // FADE OUT YOUR OVERLAYING DIV
     $('.loader').removeClass("d-block");
     $('.loader').addClass("d-none");
+    $('body').fadeIn();
  }
