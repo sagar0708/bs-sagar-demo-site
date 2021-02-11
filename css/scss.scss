@@ -48,7 +48,13 @@ h2{
         margin: 0 auto;
         font-size: 50px;
         color: #b26e30;
-        animation: loader-anim 1s infinite alternate-reverse ease-in-out;
+        backface-visibility: visible;
+        animation: loader-anim 2s infinite alternate-reverse ease-in-out;
+    }
+    .loader-text{
+        font-size: 22px;
+        top: 62%;
+        left: 42%;
     }
 }
 @keyframes loader-anim{
