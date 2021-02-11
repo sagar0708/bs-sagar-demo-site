@@ -23,6 +23,6 @@ function loader(){
     $('.loader').removeClass("d-block");
     $('.loader').addClass("d-none");
     $('body').addClass("d-block");
-    $('body').fadeIn(1000);
+    $('body').fadeIn(2000);
     $('body').removeClass("d-none");
  }
