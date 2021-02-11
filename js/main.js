@@ -22,7 +22,7 @@ function loader(){
     // FADE OUT YOUR OVERLAYING DIV
     $('.loader').removeClass("d-block");
     $('.loader').addClass("d-none");
-    $('body').addClass("d-block");
-    $('body').fadeIn(2000);
-    $('body').removeClass("d-none");
+    $('.body').addClass("d-block");
+    $('.body').fadeIn(2000);
+    $('.body').removeClass("d-none");
  }
