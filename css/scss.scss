@@ -691,6 +691,23 @@ footer{
             padding: 50px 12px 35px 20px;
         }
     }
+    .footer-box{
+        position: relative;
+        &::before{
+            @media only screen and (max-width:768px){
+                content: '';
+                position: absolute;
+                background-color: #999;
+                width: 40%;
+                height: 1px;
+                top: 8%;
+                left: 12px;
+                opacity: 0.5;
+            }
+        }
+        @media only screen and (max-width:575px){
+        }
+    }
     .footer-info{
         p{
             padding: 40px 0 24px 0;
