@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="icon" href="images/banner-logo.png">
+    <!-- font-awesome -->
+    <script src="https://use.fontawesome.com/0372e49de0.js"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Elsie+Swash+Caps&family=Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Elsie+Swash+Caps&family=Great+Vibes&family=Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Elsie+Swash+Caps&family=Fjalla+One&family=Great+Vibes&family=Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Elsie+Swash+Caps&family=Fjalla+One&family=Great+Vibes&family=Josefin+Sans:wght@300&family=Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Elsie+Swash+Caps&family=Great+Vibes&family=Josefin+Sans:wght@300&family=Playball&family=Sofia&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <!--slick slider -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" />  
+    <!-- js -->
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Restaurent</title>
+</head>
+<body onload="loader()">
+    <div class="loader d-block position-fixed">
+        <i class="fa fa-cutlery" aria-hidden="true"></i>
+    </div>
+    <div class="float-btn d-md-block d-none">
+        <a href="#"><span class="top-btn position-absolute position-fixed bottom-0 end-0 rounded-circle m-lg-5 m-3 d-flex flex-column align-items-center justify-content-center text-white">
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+            <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </span></a>
+    </div>
+    <!-- banner section -->
+    <section class="banner" id="home">
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid p-0">
+                    <a class="navbar-brand p-0" href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon text-white">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse menu p-0" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-lg-0 text-center">
+                            <li class="d-inline-block mx-3 nav-item my-lg-0 my-2"><a href="#home" class="text-decoration-none">Home</a></li>
+                            <li class="d-inline-block mx-3 nav-item  my-lg-0 my-2"><a href="#menu" class="text-decoration-none">Menu</a></li>
+                            <li class="d-inline-block mx-3 nav-item  my-lg-0 my-2"><a href="#reservation" class="text-decoration-none">Reservations</a></li>
+                            <li class="d-inline-block mx-3 nav-item  my-lg-0 my-2"><a href="#event" class="text-decoration-none">Events</a></li>
+                            <li class="d-inline-block mx-3 nav-item  my-lg-0 my-2"><a href="#blog" class="text-decoration-none">Blog</a></li>
+                            <li class="d-inline-block mx-3 nav-item  my-lg-0 my-2"><a href="#contact" class="text-decoration-none">Contact</a></li>
+                            <li class="d-inline-block mx-3 nav-item  my-lg-0 my-2"><a href="#pages" class="text-decoration-none">Pages</a></li>
+                            <li class="d-inline-block mx-3 nav-item  my-lg-0 my-2"><a href="#shop" class="text-decoration-none">Shop</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- banner text -->
+        <div class="banner-text text-center">
+            <h1>Welcome to restaurant</h1>
+            <img src="images/banner-logo.png" alt="banner-logo">
+            <p class="text-capitalize">we create sweet memories</p>
+        </div>
+    </section>
+    <!-- discover section -->
+    <section class="discover overflow-hidden">
+        <div class="container">
+            <div class="row">
+                <div class="discover-title col-12">
+                    <h2 class="text-uppercase text-center">discover our story</h2>
+                </div>
+            </div>
+            <div class="discover-box">
+                <div class="row">
+                    <div class="col-12 col-md-4 text-center">
+                        <img src="images/discover-image.png" alt="discover-image">
+                    </div>
+                    <div class="col-12 col-md-4 text-center about-us">
+                        <div class="about-info d-flex flex-column align-items-center">
+                            <img src="images/discover-page-top-image.png" alt="discover-page-top-image">
+                            <h6 class="about-us-title">Welcome to Majesty</h6>
+                            <h3>art of food</h3>
+                            <p>Majesty is a team work of Majesty Restaurant 
+                                Cafe, we aim at promoting the foodstuff 
+                                industry through the branches , we establish
+                                    and through the new dishes. and integrate
+                                    between different cultures.
+                            </p>
+                            <a href="#" class="d-block">read more</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 text-center">
+                        <img src="images/discover-image-2.png" alt="discover-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section -->
+    <section class="service" id="event">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-capitalize text-center text-white">
+                    <h2>our services</h2>
+                </div>
+            </div>
+            <div class="service-box text-white">
+                <div class="row text-md-center text-sm-start text-center">
+                    <div class="col-12 col-md-4 service-box-div">
+                        <div class="service-box-image float-md-none float-sm-start float-none">
+                            <img src="images/glass.png" alt="bar-img">
+                        </div>
+                        <div class="service-info">
+                            <h4>Bar</h4>
+                            <p>Nullam vel pellentesque tortor, nec ornare 
+                                enim. Praesent vehicula dapibus diam non 
+                                Porttitor. Etiam vel elit ante. .</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 service-box-div">
+                        <div class="service-box-image float-md-none float-sm-start float-none">
+                            <img src="images/service.png" alt="bar-img">
+                        </div>
+                        <div class="service-info">
+                            <h4>Restaurent</h4>
+                            <p>Nullam vel pellentesque tortor, nec ornare 
+                                enim. Praesent vehicula dapibus diam non 
+                                Porttitor. Etiam vel elit ante. .</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 service-box-div">
+                        <div class="service-box-image float-md-none float-sm-start float-none">
+                            <img src="images/cup.png" alt="bar-img">
+                        </div>
+                        <div class="service-info">
+                            <h4>Cafe</h4>
+                            <p>Nullam vel pellentesque tortor, nec ornare 
+                                enim. Praesent vehicula dapibus diam non 
+                                Porttitor. Etiam vel elit ante. .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- deal section -->
+    <section class="deal" id="shop">
+        <div class="container text-center">
+            <div class="row">
+                <div class="deal-title col-12 text-center">
+                    <h2>Today's Specials</h2>
+                </div>
+            </div>
+            <div class="row deal-images">
+                <div class="col-12 col-md-4">
+                    <img src="images/food.png" alt="food">
+                    <span class="deal-name">food</span>
+                </div>
+                <div class="col-12 col-md-4 my-md-0 my-2">
+                    <img src="images/desert.png" alt="desert">
+                    <span class="deal-name">desert</span>
+                </div>
+                <div class="col-12 col-md-4 my-md-0 my-2">
+                    <img src="images/drink.png" alt="drink">
+                    <span class="deal-name">drink</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- special menu section -->
+    <section class="special-menu" id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2>Our Specials Menu</h2>
+                </div>
+            </div>
+            <div class="row menu-box">
+                <div class="col-sm-6 col-12">
+                    <div class="row menu-item">
+                        <div class="col-4 text-center">
+                            <img src="images/garlic.png" alt="garlic-bread">
+                        </div>
+                        <div class="col-8 d-flex flex-column justify-content-center">
+                            <div class="item-name d-flex align-items-center justify-content-between">
+                                <h6>Garlic Bread</h6>
+                                <span>$5.99</span>
+                            </div>
+                            <div class="item-desc mt-3">
+                                Delicious boneless, skinless chicken breasts and fresh mushrooms in garlic and white wine sauce.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row menu-item">
+                        <div class="col-4 text-center">
+                            <img src="images/onian.png" alt="garlic-bread">
+                        </div>
+                        <div class="col-8 d-flex flex-column justify-content-center">
+                            <div class="item-name d-flex align-items-center justify-content-between">
+                                <h6>Onion Bhaji</h6>
+                                <span>$5.99</span>
+                            </div>
+                            <div class="item-desc mt-3">
+                                Delicious boneless, skinless chicken breasts and fresh mushrooms in garlic and white wine sauce.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row menu-item">
+                        <div class="col-4 text-center">
+                            <img src="images/wings.png" alt="garlic-bread">
+                        </div>
+                        <div class="col-8 d-flex flex-column justify-content-center">
+                            <div class="item-name d-flex align-items-center justify-content-between">
+                                <h6>BBQ Chicken Wings</h6>
+                                <span>$5.99</span>
+                            </div>
+                            <div class="item-desc mt-3">
+                                Delicious boneless, skinless chicken breasts and fresh mushrooms in garlic and white wine sauce.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-12">
+                    <div class="row menu-item">
+                        <div class="col-4 text-center">
+                            <img src="images/hot-chilli.png" alt="garlic-bread">
+                        </div>
+                        <div class="col-8 d-flex flex-column justify-content-center">
+                            <div class="item-name d-flex align-items-center justify-content-between">
+                                <h6>Hot Chilli Con Carne</h6>
+                                <span>$5.99</span>
+                            </div>
+                            <div class="item-desc mt-3">
+                                Delicious boneless, skinless chicken breasts and fresh mushrooms in garlic and white wine sauce.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row menu-item">
+                        <div class="col-4 text-center">
+                            <img src="images/pizza.png" alt="garlic-bread">
+                        </div>
+                        <div class="col-8 d-flex flex-column justify-content-center">
+                            <div class="item-name d-flex align-items-center justify-content-between">
+                                <h6>Meat Feast Pizza</h6>
+                                <span>$5.99</span>
+                            </div>
+                            <div class="item-desc mt-3">
+                                Delicious boneless, skinless chicken breasts and fresh mushrooms in garlic and white wine sauce.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row menu-item">
+                        <div class="col-4 text-center">
+                            <img src="images/tikka.png" alt="garlic-bread">
+                        </div>
+                        <div class="col-8 d-flex flex-column justify-content-center">
+                            <div class="item-name d-flex align-items-center justify-content-between">
+                                <h6>Chicken Tikka Masala</h6>
+                                <span>$5.99</span>
+                            </div>
+                            <div class="item-desc mt-3">
+                                Delicious boneless, skinless chicken breasts and fresh mushrooms in garlic and white wine sauce.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial -->
+    <section class="testimonial" id="blog">
+        <div class="container">
+            <div class="test-slider">
+                <div class="slider-item text-center d-flex flex-column align-items-center">
+                    <img src="images/slider-img.png" alt="slider-image">
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis 
+                        dictum elit eu placerat. Nullam vel pellentesque tortor.</p>
+                    <img src="images/story-after.png" alt="story-after">
+                    <h6 class="text-white">Wayne Rooney</h6>
+                </div>
+                <div class="slider-item text-center d-flex flex-column align-items-center">
+                    <img src="images/slider-img.png" alt="slider-image">
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis 
+                        dictum elit eu placerat. Nullam vel pellentesque tortor.</p>
+                    <img src="images/story-after.png" alt="story-after">
+                    <h6 class="text-white">Wayne Rooney</h6>  
+                </div>
+                <div class="slider-item text-center d-flex flex-column align-items-center">
+                    <img src="images/slider-img.png" alt="slider-image">
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lobortis 
+                        dictum elit eu placerat. Nullam vel pellentesque tortor.</p>
+                    <img src="images/story-after.png" alt="story-after">
+                    <h6 class="text-white">Wayne Rooney</h6>    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- out team -->
+    <section class="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 team-title text-center text-capitalize">
+                    <h2>our team</h2>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="row">
+                    <div class="col-md-4 col-12 text-center member-info">
+                        <img src="images/john.png" alt="john">
+                        <h4>John Doggett</h4>
+                        <h6>Head Chef</h6>
+                        <p>Nullam quis ante. Etiam sit amet orci eget 
+                            eros faucibus tincidunt. Duis leo. Sed fringilla
+                             mauris sit amet nibh. Donec sodales sagittis 
+                            magna. Aenean commodo ligula.</p>
+                    </div>
+                    <div class="col-md-4 col-12 text-center member-info">
+                        <img src="images/jeffrey.png" alt="jeffrey">
+                        <h4>Jeffrey Spender</h4>
+                        <h6>Head Chef</h6>
+                        <p>Nullam quis ante. Etiam sit amet orci eget 
+                            eros faucibus tincidunt. Duis leo. Sed fringilla
+                             mauris sit amet nibh. Donec sodales sagittis 
+                            magna. Aenean commodo ligula.</p>
+                    </div>
+                    <div class="col-md-4 col-12 text-center member-info">
+                        <img src="images/monica.png" alt="monica">
+                        <h4>Monica Reyes</h4>
+                        <h6>Head Chef</h6>
+                        <p>Nullam quis ante. Etiam sit amet orci eget 
+                            eros faucibus tincidunt. Duis leo. Sed fringilla
+                             mauris sit amet nibh. Donec sodales sagittis 
+                            magna. Aenean commodo ligula.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery -->
+    <section class="gallery overflow-hidden" id="pages">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-12 text-center text-capitalize">
+                    <h2>the restaurant gallery</h2>
+                </div>
+            </div>
+            <div class="gallery-images overflow-hidden">
+                <div class="row gy-3">
+                    <div class="gal-img col-lg-4 col-md-6 col-sm-6 col-12 pr-20">
+                        <img src="images/gallry-1.png" alt="gallery-1">
+                    </div>
+                    <div class="gal-img col-lg-4 col-md-6 col-sm-6 col-12 pad-16">
+                        <img src="images/gallry-2.png" alt="gallery-2">
+                    </div>
+                    <div class="gal-img col-lg-4 col-md-6 col-sm-6 col-12 pl-20">
+                        <img src="images/gallry-3.png" alt="gallery-3">
+                    </div>
+
+                    <div class="gal-img col-lg-4 col-md-6 col-sm-6 col-12 pr-20">
+                        <img src="images/gallry-4.png" alt="gallery-4">
+                    </div>
+                    <div class="gal-img col-lg-4 col-md-6 col-sm-6 col-12 pad-16">
+                        <img src="images/gallry-5.png" alt="gallery-5">
+                    </div>
+                    <div class="gal-img col-lg-4 col-md-6 col-sm-6 col-12 pl-20">
+                        <img src="images/gallry-6.png" alt="gallery-6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- booking -->
+    <section class="booking" id="reservation">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center text-capitalize">
+                    <h2>book a table</h2>
+                </div>
+            </div>
+            <div class="booking-table">
+                <form>
+                    <div class="row gy-md-0 gy-3">
+                        <div class="col-md-3 col-12">
+                            <input type="time" name="book-time" id="book_time" value="00:00"/>
+                        </div>
+                        <div class="col-md-3 col-12">
+                            <input type="date" name="book-date" id="book_date" value="2021-01-01"/>
+                        </div>
+                        <div class="col-md-3 col-12">
+                            <select name="num-of-people" id="num_of_people">
+                                <option value="0">PEOPLE</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3 col-12">
+                            <button type="submit" id="submit_btn">BOOK A TABLE</button>
+                        </div>  
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <div class="footer-logo">
+                        <a href="#"><img src="images/footer-logo.png" alt="footer-logo"></a>
+                    </div>
+                    <div class="footer-info">
+                        <p>Dolor church-key veniam, fap Bus 
+                            mumblecore irure Vice consectetur  
+                            wolf  moon sapiente literally qui</p>
+                    </div>
+                    <div class="footer-social-icons">
+                        <a href="#" class="text-white d-inline-block"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#" class="text-white d-inline-block"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#" class="text-white d-inline-block"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                        <a href="#" class="text-white d-inline-block"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        <a href="#" class="text-white d-inline-block"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <h3 class="footer-title text-capitalize text-white">recent posts</h3>
+                    <ul class="post-list text-white">
+                        <li>
+                            <h6 class="post-title">
+                               <a href="#">Black Spaghetti with Rock Shrimp</a>
+                            </h6>
+                            <span class="post-date">
+                                April 20,2015
+                            </span>
+                        </li>
+                        <li>
+                            <h6 class="post-title">
+                                <a href="#">Black Spaghetti with Rock Shrimp</a>
+                            </h6>
+                            <span class="post-date">
+                                April 20,2015
+                            </span>
+                        </li>
+                        <li>
+                            <h6 class="post-title">
+                                <a href="#">Black Spaghetti with Rock Shrimp</a>
+                            </h6>
+                            <span class="post-date">
+                                April 20,2015
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mt-0 mt-md-3 mt-lg-0">
+                    <div class="footer-title text-capitalize text-white">
+                        <h3>gallery on flicker</h3>
+                    </div>
+                    <div class="footer-gallery">
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-md-between justify-content-around mb-2">
+                                <img src="images/ftr-img-1.png" alt="">
+                                <img src="images/ftr-img-2.png" alt="">
+                                <img src="images/ftr-img-3.png" alt="">
+                            </div>
+                            <div class="col-12 d-flex justify-content-md-between justify-content-around">
+                                <img src="images/ftr-img-4.png" alt="">
+                                <img src="images/ftr-img-5.png" alt="">
+                                <img src="images/ftr-img-6.png" alt="">
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mt-0 mt-md-3 mt-lg-0">
+                    <h3 class="footer-title text-capitalize text-white">our locations</h3>
+                    <div class="footer-location">
+                        <div class="footer-location-info d-flex align-items-center position-relative">
+                            <div class="location-icon">
+                                <img src="images/loction.png" alt="location">
+                            </div>
+                            <div class="location-add position-absolute">
+                                <p>1600 Blue Amphitheatre Par 
+                                    Mountain View, CA 94043, USA</p>
+                            </div>
+                        </div>
+                        <div class="footer-location-info d-flex align-items-center position-relative">
+                            <div class="location-icon">
+                                <img src="images/phone.png" alt="location">
+                            </div>
+                            <div class="location-add position-absolute">
+                                <p>+65.4566743</p>
+                            </div>
+                        </div>
+                        <div class="footer-location-info d-flex align-items-center position-relative">
+                            <div class="location-icon">
+                                <img src="images/msg.png" alt="location">
+                            </div>
+                            <div class="location-add position-absolute">
+                                <a href="#" class="footer-email"><p>suppot@stylemixtheme.net</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright text-center text-white">
+            <p>2015 ALL RIGHT RESERVED. DESIGNED BY <span>Eye Themes</span></p>
+        </div>
+    </footer>
+</body>
+</html>
