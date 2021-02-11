@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    $('body').fadeIn(3000);
     $('.test-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -23,4 +22,7 @@ function loader(){
     // FADE OUT YOUR OVERLAYING DIV
     $('.loader').removeClass("d-block");
     $('.loader').addClass("d-none");
+    $('body').addClass("d-block");
+    $('body').fadeIn(1000);
+    $('body').removeClass("d-none");
  }
