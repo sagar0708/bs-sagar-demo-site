@@ -53,7 +53,7 @@ h2 {
   margin: 0 auto;
   font-size: 50px;
   color: #b26e30;
-  animation: loader-anim 1s infinite alternate-reverse ease-in-out;
+  animation: loader-anim 2s infinite alternate-reverse ease-in-out;
 }
 
 @keyframes loader-anim {
