@@ -126,9 +126,10 @@ h2 {
 }
 .banner nav {
   width: 100%;
-  z-index: 9999;
-  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999999;
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 28px 54px 28px 78px;
+  transition: 0.5s;
 }
 @media only screen and (max-width: 768px) {
   .banner nav {
