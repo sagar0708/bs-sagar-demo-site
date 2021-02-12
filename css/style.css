@@ -119,6 +119,11 @@ h2 {
   background-attachment: fixed;
   background-size: cover;
 }
+@media only screen and (max-width: 768px) {
+  .banner {
+    background-attachment: scroll;
+  }
+}
 .banner nav {
   width: 100%;
   z-index: 9999;
@@ -364,6 +369,11 @@ h2 {
   background-attachment: fixed;
   background-size: cover;
 }
+@media only screen and (max-width: 768px) {
+  .service {
+    background-attachment: scroll;
+  }
+}
 @media only screen and (max-width: 1200px) {
   .service {
     padding: 100px 0;
@@ -551,6 +561,11 @@ h2 {
     padding: 0 20px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .special-menu {
+    background-attachment: scroll;
+  }
+}
 .special-menu .menu-box {
   padding-top: 78px;
 }
@@ -627,6 +642,11 @@ h2 {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .testimonial {
+    background-attachment: scroll;
+  }
 }
 .testimonial p, .testimonial h6 {
   padding: 35px 140px 42px;
