@@ -1,9 +1,4 @@
 $(document).ready(function(){
-    $(".navbar").sticky({
-        topSpacing:0
-    });
-    $('.navbar').on('sticky-start', function() { $('.navbar').css("background-color","black") });
-    $('.navbar').on('sticky-end', function() { $('.navbar').css("background-color","rgba(0,0,0,0.2)") });
     $('.test-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
